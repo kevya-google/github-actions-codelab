@@ -15,5 +15,5 @@
 package main
 
 func AddOne(input int) int {
-	return input + 2
+	return input + 1
 }
