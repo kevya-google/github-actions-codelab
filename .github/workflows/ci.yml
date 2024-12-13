@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-name: 'go-lint'
+name: 'ci'
 
 on:
   pull_request:
@@ -20,3 +20,5 @@ on:
 jobs:
   go_lint:
     uses: 'abcxyz/pkg/.github/workflows/go-lint.yml@main'
+  go_test:
+    uses: 'abcxyz/pkg/.github/workflows/go-test.yml@main'
